@@ -2,11 +2,204 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>Барбершоп</title>
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive">Базовый HTML и CSS</a>».</p>
+    <header class="main-menu">
+
+      <!-- wrap -->
+      <div class="container">
+
+        <!-- main menu -->
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин<a>
+              </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- //main menu -->
+
+        <!-- user block -->
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+        <!-- //user block -->
+
+      <div>
+      <!-- //wrap -->
+    </header>
+
+    <main class="container">
+
+      <!-- logotype -->
+      <div class="index-logo">
+        <img src="http://placehold.it/150x100" alt="Барбешоп "Бородинский"">
+      </div>
+      <!-- //logotype -->
+
+      <!-- promo -->
+      <div class="promo">
+
+        <!-- promo block 1 -->
+        <div class="promo-block">
+          <b>Быстро</b>
+          <p>
+            Мы делаем свою работу быстро! Два часа пролетают незаметнои вы - счастливый обладатель стильной стрики-минутки!
+          </p>
+        </div>
+        <!-- //promo block 1 -->
+
+        <!-- promo block 2 -->
+        <div class="promo-block">
+          <b>Круто</b>
+          <p>
+            Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.
+          </p>
+        </div>
+        <!-- //promo block 2 -->
+
+        <!-- promo block 3 -->
+        <div class="promo-block">
+          <b>Дорого</b>
+          <p>
+            Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?
+          </p>
+        </div>
+        <!-- //promo block 3 -->
+
+      </div>
+      <!-- //promo -->
+
+      <!-- double block 1 (news/gallery) -->
+      <div class="index-content">
+
+        <!-- news block -->
+        <div class="index-content-left">
+          <h2 class="index-content-title">Новости</h2>
+          <ul class="news-preview">
+            <li>
+              <p>
+                Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки
+              </p>
+              <time datetime="2016-09-25">25 сентября</time>
+            </li>
+            <li>
+              <p>
+                В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды
+              </p>
+              <time datetime="2016-09-19">19 сентября</time>
+            </li>
+          </ul>
+          <a class="button" href="#">Все новости</a>
+        </div>
+        <!-- //news block -->
+
+        <!-- gallery block -->
+        <div class="index-content-right">
+          <h2 class="index-content-title">Фотогалерея</h2>
+          <div class="index-gallery">
+            <figure class="index-gallery-content">
+              <img src="http://placehold.it/400x200" alt="#">
+            </figure>
+          </div>
+          <button class="button index-gallery-prev">Назад</button>
+          <button class="button index-gallery-next">Вперёд</button>
+        </div>
+        <!-- //gallery block -->
+
+      </div>
+      <!-- //double block 1 (news/gallery) -->
+
+      <!-- double block 2 (info/reservation) -->
+      <div class="index-content">
+
+        <!-- info block -->
+        <div class="index-content-left">
+          <h2 class="index-content-title">Контактная информация</h2>
+          <p>
+            Барбершоп «Бородинский»<br>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            Телефон: +7 (812) 666-02-66
+          </p>
+          <p>
+            время работы:<br>
+            пн — пт: с 10:00 до 22:00<br>
+            сб — вс: с 10:00 до 19:00
+          </p>
+          <a class="button" href="#">Как проехать</a>
+          <a class="button" href="#">Обратная связь</a>
+        </div>
+        <!-- //info block -->
+
+        <!-- reservation block -->
+        <div class="index-content-right">
+          <h2 class="index-content-title">Записаться</h2>
+          <p>
+            Укажите желаемую дату и время и мы свяжемся с Вами для подтверждения брони
+          </p>
+          <form class="appointment-form" action="#" method="post">
+            <input type="text" name="date" value="" placeholder="Дата">
+            <input type="text" name="time" value="" placeholder="Время">
+            <input type="text" name="name" value="" placeholder="Ваше имя">
+            <input type="tel" name="phone" value="" placeholder="Телефон">
+            <button class="button" type="submit">Отправить</button>
+          </form>
+        </div>
+        <!-- //reservation block -->
+
+      </div>
+      <!-- //double block 2 (info/reservation) -->
+
+    </main>
+
+    <footer class="main-footer">
+
+      <!-- wrap -->
+      <div class="container">
+
+        <!-- contact's block -->
+        <div class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </div>
+        <!-- //contact's block -->
+
+        <!-- social block -->
+        <div class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-button social-button-vk" href="#">Вконтакте</a>
+          <a class="social-button social-button-fb" href="#">Фейсбук</a>
+          <a class="social-button social-button-inst" href="#">Инстаграм</a>
+        </div>
+        <!-- //social block -->
+
+        <!-- copyright block -->
+        <div class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+        </div>
+        <!-- //copyright block -->
+
+      </div>
+      <!-- //wrap -->
+
+    </footer>
 
   </body>
 </html>
